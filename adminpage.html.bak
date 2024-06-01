@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Page</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Your custom CSS styles -->
+    <link rel="stylesheet" href="css\adminpage.css">
+</head>
+<body>
+   
+    <!-- First Navigation Bar for User Information -->
+    <header>
+        <div class="company">
+            <img class="logo" src="img\logo.png" width="50" height="50" alt="Company Logo">
+            <h5>Neighborhood Borrowing Hub</h5>
+        </div>
+        <div class="user-info">
+            <span id="username">Adminname</span>
+            <img src="img\hasan.jpg" width="60" height="60" alt="User Picture">
+			<a href="index.html">Logout</a>
+        </div>
+    </header>
+
+    <!-- Second Navigation Bar for Navigation Links -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Item List</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Upload</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Borrowing</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Content Goes Here -->
+
+    <!-- Include Bootstrap JS (jQuery and Popper.js are required) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
